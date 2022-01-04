@@ -2,6 +2,7 @@
 layout: post
 title: "01.OS 이해 및 관리"
 categories: System Security
+tag: OS
 ---
 
 ## CPU(Central Processing Unit, 중앙처리장치)의 구조적 이해

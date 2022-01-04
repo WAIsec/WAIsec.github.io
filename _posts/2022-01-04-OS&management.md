@@ -1,9 +1,16 @@
 ---
 layout: single
-title: "01.OS 이해 및 관리"
+title: "01. OS 이해 및 관리"
 categories: System-Security
-tag: [OS, System, Security]
+tag: [System-Security]
 toc: true
+author_profile: true # 왼쪽에 프로필이 해당 게시물에서 나타낼지 말지 정하는 것
+
+# sidebar는 좌측에 navi 생성하는 것
+# sidebar:
+#     nav: "docs"
+# search 기능 제한하는 법
+# search: false
 ---
 
 ## CPU(Central Processing Unit, 중앙처리장치)의 구조적 이해
@@ -18,7 +25,7 @@ toc: true
 **[ 구성 요소 ]** 
 
 - ALU(연산장치) : 각종 산술연산들과 논리연산들 수행
-- Register(레지스터) : 컴퓨터 장치 중 속도가 가장 빠르며, CPU 내부의 연산 결과를 일싲거으로 기록
+- Register(레지스터) : 컴퓨터 장치 중 속도가 가장 빠르며, CPU 내부의 연산 결과를 일시적으로 기록
     - [레지스터 종류]
         - PC(Program Counter) : 다음 수행 될 명령어가 저장된 주기억장치의 번지 지정
         - MAR(Memory Address Register) : 주기억장치 접근을 위한 주기억장치 번지 기억

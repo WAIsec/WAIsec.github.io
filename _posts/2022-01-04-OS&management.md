@@ -3,8 +3,6 @@ layout: single
 title: "01.OS 이해 및 관리"
 ---
 
-# 01. OS 이해 및 관리
-
 ## CPU(Central Processing Unit, 중앙처리장치)의 구조적 이해
 
 ### 1. CPU 구조 이해

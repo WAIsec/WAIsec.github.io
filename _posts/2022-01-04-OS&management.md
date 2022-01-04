@@ -7,8 +7,6 @@ title: "01.OS 이해 및 관리"
 
 ## CPU(Central Processing Unit, 중앙처리장치)의 구조적 이해
 
----
-
 ### 1. CPU 구조 이해
 
 **(1) CPU 개념**
@@ -59,8 +57,6 @@ title: "01.OS 이해 및 관리"
     
 
 ## 메모리 시스템(Memory System)
-
----
 
 ### 1. 기억장치 계층구조(Memory Hierarchy)
 
@@ -230,8 +226,6 @@ CPU가 요구하는 데이터가 캐시에 없는 경우 이는 Cache miss를 �
 7. 또한 한 번에 프로그램 전체를 적재시키기 때문에 사용되는 Main memory의 크기가 커야한다는 요소도 존재합니다.
 
 ## I/O Interface
-
----
 
 **(1) 입출력 처리에 대한 변화**
 

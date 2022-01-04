@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "01.OS 이해 및 관리"
 ---
 

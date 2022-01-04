@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "Seoul"
 title                    : "WAI's lab"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Digital Forensics Researcher"
 name                     : "WAIsec"
 description              : "Digital Forensic Student"
 url                      : "https://WAIsec.github.io"

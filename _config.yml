@@ -227,6 +227,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
+# collection_archive:
+#   type: liquid
+#   path: /collections/
 # tag_archive:
 #   type: liquid
 #   path: /tags/

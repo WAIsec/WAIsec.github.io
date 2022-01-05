@@ -1,24 +1,27 @@
 # main links
 main:
-# - title: "Category"
-#   url: /categories/
+- title: "Category"
+  url: /categories/
 # - title: "Tag"
 #   url: /tags/
 - title: "Search"
   url: /search/
 docs:
   - title: "Security"
+    url: /categories/security/
     children:
       - title: "System Security"
-        url: /categories/system-security/
+        url: /categories/security/system-security/
       - title: "Network Security"
-        url: /categories/network-security/
+        url: /categories/security/network-security/
       - title: "Application Security"
-        url: /categories/application-security/
+        url: /categories/security/application-security/
       - title: "Information Security"
-        url: /categories/information-security/
+        url: /categories/security/information-security/
   - title: "Reverse Engineering"
+    url: /categories/reverse-engineering/
   - title: "Practice"
+    url: /categories/practice/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

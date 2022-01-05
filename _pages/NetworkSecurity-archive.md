@@ -1,7 +1,7 @@
 ---
 title: "Network Security"
 layout: category
-permalink: /categories/network-security/
+permalink: /categories/security/network-security/
 author_profile: true
 sidebar_main: true
 sidebar:

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "OS 이해 및 관리"
-categories: [System Security]
+category: [System Security]
 toc: true
 author_profile: true # 왼쪽에 프로필이 해당 게시물에서 나타낼지 말지 정하는 것
 

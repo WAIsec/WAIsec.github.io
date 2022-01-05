@@ -1,7 +1,7 @@
 ---
 title: "Application Security"
 layout: category
-permalink: /categories/security/application-security/
+permalink: /categories/application-security/
 author_profile: true
 sidebar_main: true
 sidebar:

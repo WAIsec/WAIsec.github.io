@@ -27,7 +27,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/Malware.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs            : true # true, false (default)
+breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -105,7 +105,7 @@ author:
   name             : "WAIsec"
   avatar           : "/assets/images/Malware.jpg"
   bio              : "Digital Forensics Student"
-  location         : "Seoul"
+  location         : "South Korea"
   email            : 
   links:
     - label: "Email"
@@ -239,14 +239,12 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-    - collection
+    - category
   layouts:
     category: archive-taxonomy
-    collection: archive-taxonomy
     # tag: archive-taxonomy
   permalinks:
     category: /categories/:name/
-    collection: /collection/:name/
     # tag: /tags/:name/
 
 

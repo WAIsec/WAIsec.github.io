@@ -1,7 +1,7 @@
 ---
 title: "System Security"
 layout: category
-permalink: /categories/security/system-security/
+permalink: /categories/system-security/
 author_profile: true
 sidebar_main: true
 sidebar:

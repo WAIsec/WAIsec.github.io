@@ -7,5 +7,4 @@ sidebar_main: true
 sidebar:
     nav: "docs"
 taxonomy: "Category"
-entries_layout: grid
 ---

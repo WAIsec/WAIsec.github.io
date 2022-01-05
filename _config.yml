@@ -239,6 +239,7 @@ jekyll-archives:
   enabled:
     - categories
     - tags
+    - system-security
   layouts:
     category: archive-taxonomy
     # tag: archive-taxonomy

@@ -25,6 +25,9 @@ docs:
         url: /categories/information-security/
   - title: "Digital Forensics"
   - title: "Reverse Engineering"
+    children:
+      - title: "Assembly"
+        url: /categories/assembly/
   - title: "Practice"
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/

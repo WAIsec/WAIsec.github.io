@@ -1,14 +1,13 @@
 ---
 layout: single
 title: "01. OS 이해 및 관리"
-categories: System-Security
-tag: [System-Security]
+categories: [System Security]
 toc: true
 author_profile: true # 왼쪽에 프로필이 해당 게시물에서 나타낼지 말지 정하는 것
 
 # sidebar는 좌측에 navi 생성하는 것
-# sidebar:
-#     nav: "docs"
+sidebar:
+    nav: "docs"
 # search 기능 제한하는 법
 # search: false
 ---
@@ -38,7 +37,7 @@ author_profile: true # 왼쪽에 프로필이 해당 게시물에서 나타낼�
 
 **(1) 정의**
 
-버스(Bus)는 시스템에서 데이터들이 다니는 통로이다. 한정된 자원이므로 버스를 이용하기 위해서는 신호를 받아야하며, 이를 사용하는 바식에 따라 입출력 성능에 영향을 준다.
+버스(Bus)는 시스템에서 데이터들이 다니는 통로이다. 한정된 자원이므로 버스를 이용하기 위해서는 신호를 받아야하며, 이를 사용하는 방식에 따라 입출력 성능에 영향을 준다.
 
 **(2) 버스(Bus)의 종류**
 

@@ -10,13 +10,13 @@ docs:
   - title: "Security"
     children:
       - title: "System Security"
-        url: /categories/System-Security
+        url: /categories/system-security
       - title: "Network Security"
-        url: /categories/Network-Security
+        url: /categories/network-security
       - title: "Application Security"
-        url: /categories/Application-Security
+        url: /categories/application-security
       - title: "Information Security"
-        url: /categories/Information-Security
+        url: /categories/information-security
   - title: "Reverse Engineering"
   - title: "Practice"
   # - title: "Quick-Start Guide"

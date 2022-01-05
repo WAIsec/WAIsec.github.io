@@ -252,3 +252,4 @@ CPU가 요구하는 데이터가 캐시에 없는 경우 이는 Cache miss를 �
 
 - 독립적인 장치로 현재 대부분의 컴퓨터에서 사용되고 있다. 독립적으로 입출력을 수행하며 고속으로 데이터를 전송할 수 있다는 장점이 있다.
 - 크게 Selector 채널과 Multiplexer 채널로 나뉘어지며 Selector 채널은 한 번에 한 개씩 데이터를 전송하고 Multiplexer는 한 번에 여러개의 데이터를 전송할 수 있다. 이러한 Multiplexer는 Byte Multiplexer와 Block Multiplexer로 나뉘어진다.
+<a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>

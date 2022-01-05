@@ -227,6 +227,7 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
+
 # collection_archive:
 #   type: liquid
 #   path: /collections/
@@ -268,5 +269,6 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar_main: true
       sidebar:
           nav: docs

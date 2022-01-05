@@ -228,9 +228,9 @@ category_archive:
   type: liquid
   path: /categories/
 
-# collection_archive:
-#   type: liquid
-#   path: /collections/
+collection_archive:
+  type: liquid
+  path: /collections/
 # tag_archive:
 #   type: liquid
 #   path: /tags/
@@ -239,12 +239,14 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-    - system-security
+    - collection
   layouts:
     category: archive-taxonomy
+    collection: archive-taxonomy
     # tag: archive-taxonomy
   permalinks:
     category: /categories/:name/
+    collection: /collection/:name/
     # tag: /tags/:name/
 
 

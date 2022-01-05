@@ -10,7 +10,7 @@ docs:
   - title: "Security"
     children:
       - title: "System Security"
-        url: /categories/system-security
+        url: /categories/system-security/
       - title: "Network Security"
         url: /categories/network-security
       - title: "Application Security"

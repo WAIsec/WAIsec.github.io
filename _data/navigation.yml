@@ -12,11 +12,11 @@ docs:
       - title: "System Security"
         url: /categories/system-security/
       - title: "Network Security"
-        url: /categories/network-security
+        url: /categories/network-security/
       - title: "Application Security"
-        url: /categories/application-security
+        url: /categories/application-security/
       - title: "Information Security"
-        url: /categories/information-security
+        url: /categories/information-security/
   - title: "Reverse Engineering"
   - title: "Practice"
   # - title: "Quick-Start Guide"

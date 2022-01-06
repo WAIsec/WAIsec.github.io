@@ -28,6 +28,8 @@ docs:
     children:
       - title: "Assembly"
         url: /categories/assembly/
+      - title: "Malware"
+        url: /categories/malware/
   - title: "Practice"
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/

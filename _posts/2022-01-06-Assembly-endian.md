@@ -12,6 +12,7 @@ sidebar:
 # search: false
 ---
 Endian에 대해 학습한 내용입니다.
+
 # Endian
 
 ## Endian이란?

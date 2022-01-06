@@ -11,7 +11,7 @@ sidebar:
 # search 기능 제한하는 법
 # search: false
 ---
-
+리버싱 엔지니어들이 Assembly 언어를 배우는 이유가 뭘까요...?
 # 목적
 
 ## Assembly를 왜 배울까?

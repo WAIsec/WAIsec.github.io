@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Category"
-    url: /categories/
+- title: "Total"
+  url: /categories/
 # - title: "Security"
 #   url: /categories/security/
 # - title: "Reverse Engineering"

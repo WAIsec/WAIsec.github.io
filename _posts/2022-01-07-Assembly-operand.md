@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "어셈블리언어 - 산술 연산, 비트 연산"
+title: "Assembly Lang - 산술 연산, 비트 연산"
 category: [Assembly]
 toc: true
 author_profile: true # 왼쪽에 프로필이 해당 게시물에서 나타낼지 말지 정하는 것

@@ -13,8 +13,6 @@ sidebar:
 ---
 CPU Scheduling 기법 중 첫 번째 section을 학습한 내용입니다.
 
-# CPU Scheduling #1
-
 # Process scheduling
 
 ## Process scheduling 이란?

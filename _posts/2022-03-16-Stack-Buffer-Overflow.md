@@ -11,11 +11,9 @@ sidebar:
 # search 기능 제한하는 법
 # search: false
 ---
-# Stack Buffer Overflow(BOF)
+Stack Buffer Overflow(BOF)에 관해 학습한 내용입니다.
 
 ## Environment Set up
-
----
 
 ### ASLR
 
@@ -61,8 +59,6 @@ sidebar:
 
 ## Task 1: Running Shellcode
 
----
-
 ### Task purpose
 
 - 우선 우리는 shellcode와 친숙해져야 한다. shellcode는 shell을 실행하는 code를 말한다. 이는 우리가 취약적인 프로그램을 해당 shellcode로 점프할 수 있도록 메모리 상에 적재되어야 한다. 해당 작업에 필요한 shellcode를 직접 작성 해볼 것이다.
@@ -107,8 +103,6 @@ Step 3, 4 결과
 → Step 4:에서 해당 옵션을 잘 붙여줘야 올바르게 작동한다. 주의하자.
 
 ## Task 2: Exploiting Vulnerability
-
----
 
 ### Task purpose
 
@@ -158,8 +152,6 @@ Step 3, 4 결과
 - 교재에서는 return address와 shellcode 사이에 0x90 (NOP)을 넣어줘서 그 사이 아무 곳에라도 return 되면 알아서 shellcode가 진행된다 했지만, 정확한 값을 입력해주지 않으면 Illegal Instruction이라는 에러가 등장했다. 정확한 shellcode 위치를 찾아 return address에 지정해주자.
 
 ## Task 3: Defeating dash’s Countermeasure
-
----
 
 ### Task purpose
 
@@ -272,8 +264,6 @@ Step 3, 4 결과
 
 ## Task 4: Defeating Address Randomization
 
----
-
 ### Task purpose
 
 - 32bit 체제의Linux system에서는 stack은 단지 19bits의 entropy를 가진다. 이는 $2^{19}$ = 524,288로 충분히 brute-force로 계산 가능한 범위이다. 그러므로 ASLR 대응책도 한 번 뚫어보자.
@@ -320,8 +310,6 @@ Step 3, 4 결과
 
 ## Task 5: Turn on the StackGuard Protection
 
----
-
 ### Task purpose
 
 - 우리는 이번 Task에서 StackGuard Protection이 켜져있는 상황에서의 Task 2를 진행할 것이다.
@@ -351,8 +339,6 @@ Step 3, 4 결과
 - stack.c를 새로 컴파일 해주면 exploit.c도 컴파일 해줘야됨을 잊지 말자.
 
 ## Task 6: Turn on the Non-executable Stack Protection
-
----
 
 ### Task purpose
 

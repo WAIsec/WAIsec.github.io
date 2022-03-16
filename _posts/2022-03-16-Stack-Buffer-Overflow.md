@@ -71,32 +71,32 @@ sidebar:
 
 - Step 1: call_shellcode.c 프로그램을 작성한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled.png)
     
 - Step 2: gcc를 이용하여 위 코드(call_shellcode.c)를 컴파일 한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%201.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%201.png)
     
 - Step 3: Vulnerable Program(stack.c)을 작성한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%202.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%202.png)
     
 - Step 4: 해당 stack.c 프로그램을 옵션을 달아 컴파일 해준다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%203.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%203.png)
     
 
 ### Result
 
 Step 1, 2 결과
 
-![Untitled](../images/Stack%20Buff%208fe39/Untitled%201.png)
+![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%201.png)
 
 → shell code를 실행하니 shell 이 실행된 모습이다.
 
 Step 3, 4 결과
 
-![Untitled](../images/Stack%20Buff%208fe39/Untitled%203.png)
+![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%203.png)
 
 → 해당 code를 작성하고 컴파일 하여 Set-UID 프로그램을 만들어준 모습이다. 해당 프로그램은 BOF 취약점을 가지고 있다.
 
@@ -118,36 +118,36 @@ Step 3, 4 결과
 
 - Step 1: ‘stack.c’를 gdb를 이용하여 buff와 ebp 사이의 거리를 구하고 계산하여, return address의 주소를 구한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%204.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%204.png)
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%205.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%205.png)
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%206.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%206.png)
     
     >> 즉 ebp와 buffer의 거리가 85이고 return address를 가리키는 스택의 위치는 85+4인 89임을 알 수 있다. return address의 정확한 위치는 기존의 buff 위치 + 517 - shellcode의 길이만큼 해주면 정확한 return address의 위치를 알 수 있다. 그리하여 exploit.c를 작성해준다.
     
 - Step 2: 다음을 바탕으로 exploit.c를 작성한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%207.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%207.png)
     
 - Step 3: exploit.c 프로그램을 컴파일 하고 실행한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%208.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%208.png)
     
 - Step 4: 이후 stack.c를 실행 해준다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%209.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%209.png)
     
 
 ### Result
 
 → Step 2의 결과
 
-![Untitled](../images/Stack%20Buff%208fe39/Untitled%2010.png)
+![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2010.png)
 
 → Step 4의 결과
 
-![Untitled](../images/Stack%20Buff%208fe39/Untitled%209.png)
+![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%209.png)
 
 ### Consideration
 
@@ -169,7 +169,7 @@ Step 3, 4 결과
 
 - Step 1: 우선 shell을 dash shell로 바꿔놓는다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2011.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2011.png)
     
 - Step 2: dash_shell_test.c라는 프로그램을 작성한다.
     
@@ -193,7 +193,7 @@ Step 3, 4 결과
     
 - Step 3: 해당 프로그램을 컴파일 해주고, Set_UID 프로그램으로 만들어준다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2012.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2012.png)
     
     → 정상적으로 shell이 실행되는 것을 볼 수 있다.
     
@@ -261,7 +261,7 @@ Step 3, 4 결과
 
 - Step 4에 대한 결과
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2013.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2013.png)
     
     → 다음과 같이 dash shell에서도 정상적으로 작동함을 볼 수 있다.
     
@@ -282,7 +282,7 @@ Step 3, 4 결과
 
 - Step 1: 우선 원래대로의 ASLR을 적용한다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2014.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2014.png)
     
 - Step 2: 우리는 vulnerable program(stack.c)를 반복적으로 실행하여, 결국에는 우리가 원하는 badfile이 맞도록 할 것이다. 그러기 위해서, 다음과 같은 shell script를 실행시키자. 해당 프로그램은 정상적으로 ./stack이 실행 됐을 때 종료 된다.
     
@@ -309,7 +309,7 @@ Step 3, 4 결과
 
 - Step 2에 대한 결과
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2015.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2015.png)
     
     → 정상적으로 루트 권한을 얻은 모습을 볼 수 있다.
     
@@ -330,7 +330,7 @@ Step 3, 4 결과
 
 - Step 1: 이전 Task에서 켰던 ASLR option을 다시 0으로 설정해준다.
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2016.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2016.png)
     
 - Step 2: Stackguard를 끄지 않고 stack.c를 컴파일 해준다.
 - Step 3: exploit.c는 stack.c를 컴파일 해준 뒤 컴파일 해줘야 하므로 exploit.c도 다시 컴파일 해준다.
@@ -340,7 +340,7 @@ Step 3, 4 결과
 
 - 결과
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2017.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2017.png)
     
     → Stack guard protector를 끄지 않고 진행해주면 다음과 같은 error message를 확인할 수 있었다.
     
@@ -368,7 +368,7 @@ Step 3, 4 결과
 
 - 결과
     
-    ![Untitled](../images/Stack%20Buff%208fe39/Untitled%2018.png)
+    ![▲ 실행화면](/images/Stack%20Buff%208fe39/Untitled%2018.png)
     
     → 다음과 같이 Segmentation fault error message가 뜨며 정상적으로 root shell을 얻을 수 없다.
     
